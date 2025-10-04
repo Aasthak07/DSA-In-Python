@@ -1,0 +1,3 @@
+To run the python file with Nodemon 
+write the command on terminal---->
+nodemon --exec python file_name.py 
