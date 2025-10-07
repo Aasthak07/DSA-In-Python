@@ -59,15 +59,15 @@ for i in range(n6, 0, -1):
     print()    
 
 # # diamond star pattern
-# n7 = int(input ("enter n7"))
-# for i in range(1, n7+1):    
-#     for j in range(0, n7-i+1):
-#         print(" ", end="")
-#     for j in range(0, 2*i -1):
-#         print("*", end="")
-#     for j in range(0, n7-i+1):
-#         print(" ", end="")
-#     print()
+n7 = int(input ("enter n7"))
+for i in range(1, n7+1):    
+    for j in range(0, n7-i+1):
+        print(" ", end="")
+    for j in range(0, 2*i -1):
+        print("*", end="")
+    for j in range(0, n7-i+1):
+        print(" ", end="")
+    print()
 
 #  # combine both equilateral and inverted equilateral triangle star pattern
 # n8 = int(input("Enter n8: "))
