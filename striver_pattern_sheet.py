@@ -89,27 +89,27 @@ for i in range(n8, 0, -1):
     print()
 
 
-#     #n8 = int(input("Enter n8: "))
+    #n8 = int(input("Enter n8: "))
 
-# # 🔺 Upper (equilateral) triangle
-# for i in range(1, n8 + 1):    
-#     # spaces before stars
-#     for j in range(0, n8 - i):
-#         print(" ", end="")
-#     # stars
-#     for j in range(0, 2 * i - 1):
-#         print("*", end="")
-#     print()  # move to next line
+# 🔺 Upper (equilateral) triangle
+for i in range(1, n8 + 1):    
+    # spaces before stars
+    for j in range(0, n8 - i):
+        print(" ", end="")
+    # stars
+    for j in range(0, 2 * i - 1):
+        print("*", end="")
+    print()  # move to next line
 
-# # 🔻 Lower (inverted) triangle
-# for i in range(n8-1 , 0, -1):    
-#     # spaces before stars
-#     for j in range(0, n8 - i):
-#         print(" ", end="")
-#     # stars
-#     for j in range(0, 2 * i - 1):
-#         print("*", end="")
-#     print()  # move to next line
+# 🔻 Lower (inverted) triangle
+for i in range(n8-1 , 0, -1):    
+    # spaces before stars
+    for j in range(0, n8 - i):
+        print(" ", end="")
+    # stars
+    for j in range(0, 2 * i - 1):
+        print("*", end="")
+    print()  # move to next line
 
 
 
