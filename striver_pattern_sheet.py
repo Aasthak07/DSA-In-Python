@@ -70,23 +70,23 @@ for i in range(1, n7+1):
     print()
 
 #  # combine both equilateral and inverted equilateral triangle star pattern
-# n8 = int(input("Enter n8: "))
+n8 = int(input("Enter n8: "))
 
-# # 🔺 Upper (equilateral) triangle
-# for i in range(1, n8 + 1):    
-#     for j in range(0, n8 - i):
-#         print(" ", end="")
-#     for j in range(0, 2 * i - 1):
-#         print("*", end="")
-#     print()
+# 🔺 Upper (equilateral) triangle
+for i in range(1, n8 + 1):    
+    for j in range(0, n8 - i):
+        print(" ", end="")
+    for j in range(0, 2 * i - 1):
+        print("*", end="")
+    print()
 
 # # 🔻 Lower (inverted) triangle
-# for i in range(n8, 0, -1):    
-#     for j in range(0, n8 - i):
-#         print(" ", end="")
-#     for j in range(0, 2 * i - 1):
-#         print("*", end="")
-#     print()
+for i in range(n8, 0, -1):    
+    for j in range(0, n8 - i):
+        print(" ", end="")
+    for j in range(0, 2 * i - 1):
+        print("*", end="")
+    print()
 
 
 #     #n8 = int(input("Enter n8: "))
