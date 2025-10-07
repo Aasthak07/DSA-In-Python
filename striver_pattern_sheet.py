@@ -113,18 +113,18 @@ for i in range(n8, 0, -1):
 
 
 
-# num1=int(input("enter the number 1: "))
 
 # #combined right triangle and inverted right triangle star pattern
+num1=int(input("enter the number 1: "))
 
-# for i in range(1, num1+1):
-#     for j in range(1, i+1):
-#         print("*", end="")
-#     print()
-# for i in range(num1-1,0,-1):
-#     for j in range(1,i+1):
-#         print("*", end="")
-#     print()    
+for i in range(1, num1+1):
+    for j in range(1, i+1):
+        print("*", end="")
+    print()
+for i in range(num1-1,0,-1):
+    for j in range(1,i+1):
+        print("*", end="")
+    print()    
 
    
 # print 1,0 pattern in right triangle form
