@@ -140,35 +140,35 @@ for i in range(1,num2+1):
     print()
 
 #     # ascending numbers to the left and descending numbers to the right in a triangle form
-# num3 = int(input("Enter an odd number greater than 1 for the pattern: "))
-# def print_number_pattern(num3):
+num3 = int(input("Enter an odd number greater than 1 for the pattern: "))
+def print_number_pattern(num3):
     
-#     for i in range(1, num3 + 1):
-#         # Left side: ascending numbers
-#         for j in range(1, i + 1):
-#             print(j, end="")
-#         # Spaces in the middle
-#         spaces = 2 * (num3 - i)
-#         print(" " * spaces, end="")
-#         # Right side: descending numbers
-#         for j in range(i, 0, -1):
-#             print(j, end="")
-#         print()
+    for i in range(1, num3 + 1):
+        # Left side: ascending numbers
+        for j in range(1, i + 1):
+            print(j, end="")
+        # Spaces in the middle
+        spaces = 2 * (num3 - i)
+        print(" " * spaces, end="")
+        # Right side: descending numbers
+        for j in range(i, 0, -1):
+            print(j, end="")
+        print()
 
-# # Example usage (for n=4, matching the image pattern)
-# print_number_pattern(4)
-# n= int(input("enter the number of rows: "))
-# start= 1
-# for i in range(1, n+1):
-#     if i%2==0:
-#         start=0
-#     else:
-#         start=1
-#     for j in range(1, i+1):
-#         print(start, end="")
-#         start=1-start
+# Example usage (for n=4, matching the image pattern)
+print_number_pattern(4)
+n= int(input("enter the number of rows: "))
+start= 1
+for i in range(1, n+1):
+    if i%2==0:
+        start=0
+    else:
+        start=1
+    for j in range(1, i+1):
+        print(start, end="")
+        start=1-start
 
-#     print()    
+    print()    
 
 # #numbers in a triangle form
 # top=1
