@@ -37,15 +37,15 @@ for i in range(1,n4+1):
 
 # # equilateral triangle star pattern
 # # 
-# n5 = int(input ("enter n5"))
-# for i in range(1, n5+1):
-#     for j in range(0, n5-i+1):
-#         print(" ", end="")
-#     for j in range(0, 2*i -1):
-#         print("*", end="")
-#     for j in range(0, n5-i+1):
-#         print(" ", end="")
-#     print()
+n5 = int(input ("enter n5"))
+for i in range(1, n5+1):
+    for j in range(0, n5-i+1):
+        print(" ", end="")
+    for j in range(0, 2*i -1):
+        print("*", end="")
+    for j in range(0, n5-i+1):
+        print(" ", end="")
+    print()
 
 # # inverted equilateral triangle star pattern
 # n6 = int(input ("enter n6"))
