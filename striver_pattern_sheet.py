@@ -129,15 +129,15 @@ for i in range(num1-1,0,-1):
    
 # print 1,0 pattern in right triangle form
 
-# num2 = int (input("enter the number for 1,0 pattern: "))
-# for i in range(1,num2+1):
-#     for j in range(1,i+1 ):
-#         if(i%2==0 and j%2==0) or (i%2!=0 and j%2!=0):
+num2 = int (input("enter the number for 1,0 pattern: "))
+for i in range(1,num2+1):
+    for j in range(1,i+1 ):
+        if(i%2==0 and j%2==0) or (i%2!=0 and j%2!=0):
              
-#             print(1, end="")
-#         else:
-#             print(0, end="")
-#     print()
+            print(1, end="")
+        else:
+            print(0, end="")
+    print()
 
 #     # ascending numbers to the left and descending numbers to the right in a triangle form
 # num3 = int(input("Enter an odd number greater than 1 for the pattern: "))
