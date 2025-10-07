@@ -171,21 +171,21 @@ for i in range(1, n+1):
     print()    
 
 # #numbers in a triangle form
-# top=1
-# num4= int(input("enter the number of rows: "))
-# for i in range(1,num4+1):
-#     for j in range(1,i+1):
-#         print(top, end=" ")
-#         top+=1
-#     print()
+top=1
+num4= int(input("enter the number of rows: "))
+for i in range(1,num4+1):
+    for j in range(1,i+1):
+        print(top, end=" ")
+        top+=1
+    print()
 
-# # alphabet pattern in a triangle form  
-# # 
-# num5= int(input("enter the number of rows: "))
-# for i in range(0,num5):
-#     for j in range(0, i+1):
-#         print(chr(ord('A')+j), end="")
-#     print()  
+# alphabet pattern in a triangle form  
+# 
+num5= int(input("enter the number of rows: "))
+for i in range(0,num5):
+    for j in range(0, i+1):
+        print(chr(ord('A')+j), end="")
+    print()  
 
 
 
