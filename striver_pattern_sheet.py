@@ -19,11 +19,11 @@ for i in range(0,n1):
 
 # # inverted right triangle star pattern
 
-# n3= int(input("enter the number"))
-# for i in range(n3, 0, -1):
-#     for j in range(0, i):
-#         print("*", end="")
-#     print()
+n3= int(input("enter the number"))
+for i in range(n3, 0, -1):
+    for j in range(0, i):
+        print("*", end="")
+    print()
 
 
 # # number pattern
