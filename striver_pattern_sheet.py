@@ -191,11 +191,11 @@ for i in range(0,num5):
 
 # # inverted alphabet pattern in a triangle form
 # # 
-# num6= int(input("enter the number of rows: "))
-# for i in range(num6,0,-1):
-#     for j in range(0, i):
-#         print(chr(ord('A')+j), end="")
+num6= int(input("enter the number of rows: "))
+for i in range(num6,0,-1):
+    for j in range(0, i):
+        print(chr(ord('A')+j), end="")
 
-#     print()
+    print()
 
    
