@@ -198,4 +198,32 @@ for i in range(num6,0,-1):
 
     print()
 
-   
+
+# print alphabet A in 1st line and B B in 2nd line and CCC in 3rd line and so on   
+
+num7= int(input("enter the number of rows you wnat:"))
+for i in range(0, num7):
+    for j in range(0, i+1):
+        print(chr(ord('A')+i), end=" ")
+    print()
+
+# equilateral alphabet pattern in a triangle form 1st line A and 2nd line A B A and 3rd line A B C B A and so on
+# 
+num8= int(input("enter the number of rows: "))
+
+
+  # Number of rows
+
+for i in range(1, num8+1):
+    # Print leading spaces for centering
+    print(" " * (n - i), end="")
+    # Print increasing sequence
+    for j in range(0, i):
+        print(chr(ord('A') + j), end="")
+    # Print decreasing sequence, skipping the middle character
+    for j in range(i-2, -1, -1):
+        print(chr(ord('A') + j), end="")
+    print()  # Move to next line
+
+
+  
