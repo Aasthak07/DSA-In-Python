@@ -10,12 +10,12 @@ for i in range(1, n+1):
 
 # # right triangle star pattern
 # # 
-# n1= int(input("enter the number"))
+n1= int(input("enter the number"))
 
-# for i in range(0,n1):
-#     for j in range(0, i+1):
-#         print("*", end="")
-#     print() 
+for i in range(0,n1):
+    for j in range(0, i+1):
+        print("*", end="")
+    print() 
 
 # # inverted right triangle star pattern
 
