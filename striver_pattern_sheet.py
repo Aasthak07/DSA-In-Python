@@ -48,15 +48,15 @@ for i in range(1, n5+1):
     print()
 
 # # inverted equilateral triangle star pattern
-# n6 = int(input ("enter n6"))
-# for i in range(n6, 0, -1):
-#     for j in range(0, n6-i+1):
-#         print(" ", end="")
-#     for j in range(0, 2*i -1):
-#         print("*", end="")
-#     for j in range(0, n6-i+1):
-#         print(" ", end="")
-#     print()    
+n6 = int(input ("enter n6"))
+for i in range(n6, 0, -1):
+    for j in range(0, n6-i+1):
+        print(" ", end="")
+    for j in range(0, 2*i -1):
+        print("*", end="")
+    for j in range(0, n6-i+1):
+        print(" ", end="")
+    print()    
 
 # # diamond star pattern
 # n7 = int(input ("enter n7"))
