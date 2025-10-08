@@ -225,5 +225,14 @@ for i in range(1, num8+1):
         print(chr(ord('A') + j), end="")
     print()  # Move to next line
 
+# starts with E and in next line D E and in next line C D E and so on (right triangle form)
+
+num9= int(input("enter the number of rows: "))
+
+for i in range(n):
+    start_char = chr(ord('E') - i)
+    for j in range(0, i + 1):
+        print(chr(ord(start_char) + j), end=" ")
+    print()
 
   
