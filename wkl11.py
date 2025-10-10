@@ -9,7 +9,6 @@
 #   *     *
 
 n=5
-
 for i in range(n//2+1):
     for j in range(n-i):
         print(' ',end='')
@@ -30,5 +29,4 @@ for i in range(n):
     for j in range(n//2+1):
         if j>=n//2-i and j>=i-n//2:
             print('*',end='')
-                           
     print()
