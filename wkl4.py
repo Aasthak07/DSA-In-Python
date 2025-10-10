@@ -1,3 +1,19 @@
+#                       e 
+#                     e e e
+#                   e e e e e
+#                       *
+#                       *
+#                       *
+#                       *
+#               * * * * *
+#               *
+#     e         *
+#   e e         *
+# e e e * * * * *
+#   e e
+#     e
+
+
 # n= int(input("enter only odd number"))
 n=5
 # first part pyramid
