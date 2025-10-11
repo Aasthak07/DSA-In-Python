@@ -10,7 +10,7 @@
 
 
 # n=int(input("Enter the value of n: "))
-n=5
+n=7
 for i in range((n//2)+1):
     for j in range(n+(n//2)-i):
         print(" ",end=" ")
