@@ -160,3 +160,104 @@ print(x + y) # 8.0  # int + float = float
 print(x + int(z)) # 15  # int + int = int
 print(str(x) + z) # "55"  # int + str = str
 print(float(x) + y) # 8.0  # int + float = float
+
+# input and output function
+
+full_name = "Abhinav Awasthi"
+age = 100
+address = "Lucknow"
+
+print(full_name)
+print(age)
+print(address)
+
+print(full_name, age, address, sep=', ')
+print(full_name, age, address, end=" ")
+print()
+print(full_name, age, address)
+
+#control statements
+# 1. if
+# 2. elif
+# 3. else
+# 4. for
+# 5. while
+
+# if
+x = 5
+if x > 0:
+    print("x is positive")
+else:
+    print("x is negative")
+
+# elif
+x = 5
+if x > 0:
+    print("x is positive")
+elif x == 0:
+    print("x is zero")
+else:
+    print("x is negative")
+
+# else
+x = 5
+if x > 0:
+    print("x is positive")
+elif x == 0:
+    print("x is zero")
+else:
+    print("x is negative")
+
+
+# ternary operator
+x = 5
+print("x is positive") if x > 0 else print("x is negative")
+print()
+
+# while
+x = 5
+while x > 0:
+    print(x)
+    x -= 1
+print()
+# for
+for i in range(5):
+    print(i)
+print()
+
+list= [1,2,3,4,5]
+for i in list:
+    print(i, end= " ")
+print()
+
+for i in range(1, 11, 2):
+    print(i, end= " ")
+print()
+
+for i in range(20, 0 , -1):
+    print(i, end= " ")
+print()
+
+# Functions
+# def function_name (parameters):
+# code-------
+
+def sun(a, b):
+    c = a + b
+    print(c)
+
+sun(1, 2)
+
+
+
+# Practice question
+
+n= 5146
+
+while n>0:
+    r= n%10   # remainded matlab last digit milti hai
+    print(r, end= " ")
+    n= n//10  # last digit ko remove karo
+
+
+
